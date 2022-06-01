@@ -1,0 +1,15 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  padding: 30px;
+  background-color: rgb(120, 120, 120);
+  font-family: arial;
+  color: white;
+}
+h1 {
+  color: rgb(123, 231, 213,);
+  margin-bottom: 15px;
+  font-family: sans-serif
+}
