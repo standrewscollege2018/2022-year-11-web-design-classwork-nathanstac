@@ -1,0 +1,13 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  color: white;
+}
+.navbar {
+background-color: indigo;
+height: 200px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
