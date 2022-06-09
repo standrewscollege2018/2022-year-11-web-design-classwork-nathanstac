@@ -7,7 +7,7 @@ body{
 }
 .navbar {
 background-color: indigo;
-height: 200px;
+height: 125px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 }
