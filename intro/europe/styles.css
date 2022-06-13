@@ -22,6 +22,8 @@ ul{
 .intro{
   background-color: rgba(76, 54, 32, 0.5);
   margin: 0px;
+  width: 80%;
+  margin: 0px auto;
 }
 
 .body{
