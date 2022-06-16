@@ -29,4 +29,12 @@ ul{
 .body{
 width: 75%;
 margin: 0px auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 20px;
+margin-top: 40px; 
+}
+.card {
+  border: solid white 2px;
+  padding: 10px;
 }
