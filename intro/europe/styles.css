@@ -21,24 +21,30 @@ ul{
 }
 .intro{
   color: white;
-  background-color: rgba(1, 1, 128, 0.7);
+  background-color: rgba(1, 1, 90, 0.8);
   margin: 0px;
-  width: 95%;
+  width: 100%;
   margin: 0px auto;
   border: solid black 2px;
   padding: 10px;
+  border-radius: 20px;
 }
 
 .body{
 width: 75%;
 margin: 0px auto;
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 grid-gap: 20px;
 margin-top: 40px;
 }
 .card {
   background-color: rgba(0, 0, 23, 0.2);
   border: solid black 2px;
+  border-radius: 10px;
   padding: 10px;
+}
+.card img{
+  max-width: 100%;
+  height: auto;
 }
